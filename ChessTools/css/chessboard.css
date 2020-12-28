@@ -1,0 +1,19 @@
+.Chessboard span {
+    margin: auto;
+}
+
+.Chessboard .darksquare {
+    background-color: rgb(187, 113, 79);
+}
+
+.Chessboard .lightsquare {
+    background-color: rgb(241, 204, 178);
+}
+
+/* .Chessboard .squarepressed {
+    background-color: rgb(247, 213, 24);
+} */
+
+.Chessboard .highlighedsquare {
+    background-color: rgb(238, 39, 39);
+}

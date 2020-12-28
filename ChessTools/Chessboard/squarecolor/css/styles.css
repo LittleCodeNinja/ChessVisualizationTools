@@ -1,0 +1,126 @@
+#squarename {
+    margin: 20px;
+
+    text-align: center;
+
+    font-size: 50px;
+}
+
+button.squareColor {
+    position: absolute;
+
+    padding: 10px 20px;
+
+    font-family: 'Jura', sans-serif;
+    font-size: 40px;
+
+    color: rgb(255, 252, 240);
+
+    background-color: rgb(46, 137, 241);
+
+    border-radius: 10px;
+    border: 2px outset rgb(56, 205, 250);
+
+    transition: font-size 500ms;
+}
+
+button.squareColor:focus {
+    outline: none;
+
+    background-color: rgb(34, 120, 218);
+}
+
+button.squareColor:hover {
+    font-size: 50px;
+
+    transition: font-size 500ms;
+}
+
+#white.squareColor {
+    left: 18%;
+}
+
+#black.squareColor {
+    right: 18%;
+}
+
+.result.squareColor {
+    margin: 0;
+
+    color: rgb(0, 0, 0);
+
+    transition-property: color;
+    transition-duration: 500ms;
+
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+}
+
+#correct:hover.squareColor {
+    color: rgb(0, 134, 0);
+
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+#incorrect:hover.squareColor {
+    color: rgb(255, 0, 0);
+
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+#nextdiv.squareColor {
+    margin: 5px 50px;
+
+    height: 50px;
+
+    text-align: center;
+}
+
+#next.squareColor {
+    color: rgb(0, 0, 0);
+
+    font-size: 40px;
+
+    text-decoration: none;
+
+    background-size: 100% 100px;
+
+    border-radius: 50px;
+
+    background-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255) 0,
+        rgb(255, 255, 255) 50px,
+        rgb(0, 0, 0) 50px,
+        rgb(0, 0, 0) 100px
+    );
+
+    transition-property: border-radius, background-position, color;
+    transition-duration: 1000ms;
+}
+
+#next:hover.squareColor {
+    border-radius: 0;
+    background-position: 0 -50px;
+    color: rgb(255, 252, 240);
+
+    transition-property: border-radius, background-position, color;
+    transition-duration: 1000ms;
+}
+
+/* Chessboards */
+
+#answerboard {
+    margin: 0 auto;
+    padding: 0;
+
+    width: 250px;
+    height: 250px;
+
+    font-weight: 600;
+    font-size: 25px; 
+}

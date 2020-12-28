@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Name | Visualization Tools</title>
+
+    <script src="/topbar.js"></script>
+    <script src="../chessboard-head.js"></script>
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <p id="stats"></p>
+
+    <div id="container">
+        <div id="boardoutline">
+            <div id="questionboard"></div>
+
+            <div id="boardnote">
+                Board from white's point of view
+            </div>
+        </div>
+        
+        <div id="boardinfo">
+            <label for="squareinput">Enter square: </label>
+            <input type="text" id="squareinput">
+        </div>
+    </div>
+
+    <script type="module" src="./squarename.js"></script>
+</body>
+</html>

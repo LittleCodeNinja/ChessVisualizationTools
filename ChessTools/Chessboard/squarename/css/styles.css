@@ -1,0 +1,173 @@
+#squarename {
+    margin: 20px;
+
+    text-align: center;
+
+    font-size: 50px;
+}
+
+.result {
+    margin: 0;
+
+    color: rgb(0, 0, 0);
+
+    transition-property: color;
+    transition-duration: 500ms;
+
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+}
+
+#correct:hover {
+    color: rgb(0, 134, 0);
+
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+#incorrect:hover {
+    color: rgb(255, 0, 0);
+
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+#nextdiv {
+    margin: 5px 50px;
+
+    height: 50px;
+
+    text-align: center;
+}
+
+#next {
+    color: rgb(0, 0, 0);
+
+    font-size: 40px;
+
+    text-decoration: none;
+
+    background-size: 100% 100px;
+
+    border-radius: 50px;
+
+    background-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255) 0,
+        rgb(255, 255, 255) 50px,
+        rgb(0, 0, 0) 50px,
+        rgb(0, 0, 0) 100px
+    );
+
+    transition-property: border-radius, background-position, color;
+    transition-duration: 1000ms;
+}
+
+#next:hover {
+    border-radius: 0;
+    background-position: 0 -50px;
+    color: rgb(255, 252, 240);
+
+    transition-property: border-radius, background-position, color;
+    transition-duration: 1000ms;
+}
+
+#boardinfo {
+    width: 380px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    margin: 20px auto;
+
+    margin-top: 0;
+
+    padding: 25px;
+
+    background-color: rgb(53, 53, 53);
+
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.76);
+}
+
+#boardinfo label {
+    font-weight: 700;
+
+    color: rgb(255, 237, 224);
+}
+
+#squareinput {
+    border-radius: 10px;
+    border: none;
+
+    text-align: center;
+
+    background-color: rgb(255, 237, 224);
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#squareinput:focus {
+    outline: none;
+}
+
+#wantedanswer {
+    font-size: 15px;
+
+    text-align: center;
+
+    transition: font-size 500ms;
+}
+
+#wantedanswer:hover {
+    font-size: 20px;
+
+    transition: font-size 500ms;
+}
+
+/* Chessboards */
+
+#boardoutline {
+    width: 380px;
+
+    margin: 20px auto;
+
+    margin-bottom: 0;
+
+    padding: 25px;
+
+    padding-bottom: 0;
+    
+    background-color: rgb(240, 240, 240);
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 4px solid rgb(29, 29, 29);
+
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.76);
+}
+
+#boardnote {
+    padding: 2px;
+
+    font-size: 8px;
+    
+    text-align: center;
+    
+    transition: font-size 1000ms;
+}
+
+#boardnote:hover {
+    font-size: 20px;
+
+    transition: font-size 500ms;
+}
+
+#questionboard {
+    width: 380px;
+    height: 380px;
+
+    font-weight: 600;
+    font-size: 38px; 
+}
